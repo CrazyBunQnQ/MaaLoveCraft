@@ -20,7 +20,7 @@ jobs:
     # 若有需要请联系 Mirror酱 开通，直接自行开启是无法使用的
     # https://mirrorchyan.com/
     if: false
-    # if: ${{ github.repository_owner == 'MaaXYZ' }}
+    # if: ${{ github.repository_owner == 'CrazyBunQnQ' }}
 
     steps:
       - id: uploading
@@ -29,7 +29,7 @@ jobs:
           mirrorchyan_rid: MaaLoveCraft
           version_name: ${{ inputs.tag }}
 
-          owner: MaaXYZ
+          owner: CrazyBunQnQ
           repo: MaaLoveCraft
           github_token: ${{ secrets.GITHUB_TOKEN }}
           upload_token: ${{ secrets.MirrorChyanUploadToken }}

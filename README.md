@@ -5,7 +5,7 @@
 
 <div align="center">
 
-# MaaPracticeBoilerplate
+# MaaLoveCraft
 
 </div>
 
@@ -26,7 +26,7 @@
 1. 克隆本项目（地址请修改为您基于本模板创建的新项目地址）。
 
     ```bash
-    git clone https://github.com/MaaXYZ/MaaPracticeBoilerplate.git
+    git clone https://github.com/CrazyBunQnQ/MaaLoveCraft.git
     ```
 
 2. 下载 MaaFramework 的 [Release 包](https://github.com/MaaXYZ/MaaFramework/releases)，解压到 `deps` 文件夹中。
