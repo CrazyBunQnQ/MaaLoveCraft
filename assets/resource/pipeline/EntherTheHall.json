@@ -1,0 +1,84 @@
+{
+  "点击后宫模式": {
+    "recognition": {
+      "type": "OCR",
+      "param": {
+        "expected": [
+          "后宫模式"
+        ]
+      }
+    },
+    "action": {
+      "type": "Click",
+      "param": {}
+    },
+    "next": [
+      "点击开始"
+    ]
+  },
+  "点击开始": {
+    "recognition": {
+      "type": "OCR",
+      "param": {
+        "expected": [
+          "开始"
+        ]
+      }
+    },
+    "action": {
+      "type": "Click",
+      "param": {}
+    },
+    "next": [
+      "点击新阿卡姆"
+    ]
+  },
+  "点击新阿卡姆": {
+    "recognition": {
+      "type": "OCR",
+      "param": {
+        "expected": [
+          "阿卡姆"
+        ]
+      }
+    },
+    "action": {
+      "type": "Click",
+      "param": {}
+    },
+    "next": [
+      "选择夜总会"
+    ]
+  },
+  "选择夜总会": {
+    "recognition": {
+      "type": "OCR",
+      "param": {
+        "expected": [
+          "夜总会"
+        ]
+      }
+    },
+    "action": {
+      "type": "Click",
+      "param": {}
+    },
+    "next": [
+      "进入场地"
+    ]
+  },
+  "进入场地": {
+    "recognition": {
+      "type": "OCR",
+      "param": {
+        "expected": [
+          "进入场地"
+        ]
+      }
+    },
+    "action": {
+      "type": "Click",
+      "param": {}
+    }
+  }
+}
