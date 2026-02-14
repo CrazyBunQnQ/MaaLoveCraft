@@ -1,84 +1,158 @@
 {
+  "$__mpe_config_EntherTheHall": {
+    "$__mpe_code": {
+      "filePath": "C:\\Users\\baoba\\Documents\\MaaPipeline\\EntherTheHall.json",
+      "filename": "EntherTheHall",
+      "lastSyncTime": 1771069090027,
+      "prefix": "",
+      "savedViewport": {
+        "x": 408,
+        "y": 459,
+        "zoom": 1
+      },
+      "version": "v1.1.2"
+    }
+  },
   "点击后宫模式": {
-    "recognition": {
-      "type": "OCR",
-      "param": {
-        "expected": [
-          "后宫模式"
-        ]
+    "$__mpe_code": {
+      "position": {
+        "x": -54,
+        "y": -25
       }
     },
     "action": {
-      "type": "Click",
-      "param": {}
+      "param": {},
+      "type": "Click"
     },
     "next": [
       "点击开始"
-    ]
-  },
-  "点击开始": {
+    ],
     "recognition": {
-      "type": "OCR",
       "param": {
         "expected": [
-          "开始"
+          "后宫模式"
+        ],
+        "roi": [
+          33,
+          328,
+          219,
+          330
         ]
+      },
+      "type": "OCR"
+    }
+  },
+  "点击开始": {
+    "$__mpe_code": {
+      "position": {
+        "x": 273,
+        "y": -25
       }
     },
     "action": {
-      "type": "Click",
-      "param": {}
+      "param": {},
+      "type": "Click"
     },
     "next": [
       "点击新阿卡姆"
-    ]
-  },
-  "点击新阿卡姆": {
+    ],
     "recognition": {
-      "type": "OCR",
       "param": {
         "expected": [
-          "阿卡姆"
+          "开始"
+        ],
+        "roi": [
+          39,
+          116,
+          130,
+          346
         ]
+      },
+      "type": "OCR"
+    }
+  },
+  "点击新阿卡姆": {
+    "$__mpe_code": {
+      "position": {
+        "x": 598,
+        "y": -25
       }
     },
     "action": {
-      "type": "Click",
-      "param": {}
+      "param": {},
+      "type": "Click"
     },
     "next": [
       "选择夜总会"
-    ]
-  },
-  "选择夜总会": {
+    ],
     "recognition": {
-      "type": "OCR",
       "param": {
         "expected": [
-          "夜总会"
+          "新阿卡姆"
+        ],
+        "roi": [
+          266,
+          195,
+          167,
+          404
         ]
+      },
+      "type": "OCR"
+    }
+  },
+  "进入场地": {
+    "$__mpe_code": {
+      "position": {
+        "x": 1230,
+        "y": -25
       }
     },
     "action": {
-      "type": "Click",
-      "param": {}
+      "param": {},
+      "type": "Click"
     },
-    "next": [
-      "进入场地"
-    ]
-  },
-  "进入场地": {
     "recognition": {
-      "type": "OCR",
       "param": {
         "expected": [
           "进入场地"
+        ],
+        "roi": [
+          265,
+          182,
+          165,
+          400
         ]
+      },
+      "type": "OCR"
+    }
+  },
+  "选择夜总会": {
+    "$__mpe_code": {
+      "position": {
+        "x": 918,
+        "y": -25
       }
     },
     "action": {
-      "type": "Click",
-      "param": {}
+      "param": {},
+      "type": "Click"
+    },
+    "next": [
+      "进入场地"
+    ],
+    "recognition": {
+      "param": {
+        "expected": [
+          "厄洛特斯夜总会"
+        ],
+        "roi": [
+          585,
+          119,
+          241,
+          507
+        ]
+      },
+      "type": "OCR"
     }
   }
 }
